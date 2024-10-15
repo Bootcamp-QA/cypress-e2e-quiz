@@ -23,7 +23,7 @@ module.exports = defineConfig({
     setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",
     projectId: "j8e6mc",
-    baseUrl: "https://profile.w3schools.com/signup",
+    baseUrl: "https://profile.w3schools.com/",
     chromeWebSecurity: true
   },
 });
