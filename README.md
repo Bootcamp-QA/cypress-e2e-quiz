@@ -1,11 +1,7 @@
-# cypress-bootampqa
-
-<img src="https://bootcampqa.com/images/logo-black.png" alt="Bootcamp QA Logo">
-
-> Javascript, Cypress with Cucumber example project.
-
 ### 💻 Description
-E2e tests for https://bootcampqa.com
+E2e tests for https://profile.w3schools.com/
+
+> Javascript, Cypress with Cucumber 
 
 - ## 💻 Pre-requisites
 
@@ -24,5 +20,5 @@ E2e tests for https://bootcampqa.com
 
 
 ##  Run tests on CI with github Actions:
-1. Run tests on CI: https://github.com/Bootcamp-QA/cypress-bootcampqa/actions/workflows/main.yml
-2. See test results on Cypress Cloud: https://cloud.cypress.io/projects/438j27/runs
+1. Run tests on CI: https://github.com/Bootcamp-QA/cypress-e2e-w3school/actions/workflows/main.yml
+2. See test results on Cypress Cloud: https://cloud.cypress.io/projects/j8e6mc/runs
