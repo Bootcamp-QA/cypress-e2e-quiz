@@ -1,5 +1,5 @@
 ### 💻 Description
-E2e tests for https://profile.w3schools.com/
+E2e tests for https://javascriptquiz.com/
 
 > Javascript, Cypress with Cucumber 
 
@@ -20,5 +20,5 @@ E2e tests for https://profile.w3schools.com/
 
 
 ##  Run tests on CI with github Actions:
-1. Run tests on CI: https://github.com/Bootcamp-QA/cypress-e2e-w3school/actions/workflows/main.yml
-2. See test results on Cypress Cloud: https://cloud.cypress.io/projects/j8e6mc/runs
+1. Run tests on CI: https://github.com/Bootcamp-QA/cypress-e2e-quiz/actions/workflows/main.yml
+2. See test results on Cypress Cloud: https://cloud.cypress.io/projects/b8x1bw/runs

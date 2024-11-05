@@ -22,8 +22,8 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",
-    projectId: "j8e6mc",
-    baseUrl: "https://profile.w3schools.com/",
+    projectId: "b8x1bw",
+    baseUrl: "https://javascriptquiz.com/",
     chromeWebSecurity: true
   },
 });

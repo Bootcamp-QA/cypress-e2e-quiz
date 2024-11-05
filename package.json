@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "e2e-desktop": "cypress open --e2e --browser chrome",
-    "e2e-mobile": "cypress open --e2e --config viewportWidth=375,viewportHeight=667",
+    "e2e-mobile": "cypress open --e2e --config viewportWidth=375,viewportHeight=667 --browser chrome",
     "e2e-desktop-ci": "cypress run --spec cypress/e2e/features/* --record",
     "e2e-mobile-ci": "cypress run --spec cypress/e2e/features/* --config viewportWidth=375,viewportHeight=667 --record"
   },
