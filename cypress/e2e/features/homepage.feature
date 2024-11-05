@@ -1,6 +1,6 @@
-Feature: Singup W3School
+Feature: Visit Homepage
 
-    As student, I want to signup on W3School, so I can access the resources.
+    As user I want to visit homepage
 
-Scenario: Signup W3School with valid values
+Scenario: Visit homepage
 Given the user visit homepage
