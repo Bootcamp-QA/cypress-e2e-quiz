@@ -1,5 +1,5 @@
 ### 💻 Description
-E2e tests for https://javascriptquiz.com/
+E2e tests for online QUIZ https://www.braingle.com/trivia/quiz.php?id=10723
 
 > Javascript, Cypress with Cucumber 
 
