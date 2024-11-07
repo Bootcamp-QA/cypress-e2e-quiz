@@ -7,6 +7,6 @@ import {
 
   Given("the user visit homepage", () => {
     //Visita la pagina
-    cy.visit("/");
+    cy.visit("/quiz.php?id=10723");
 
   });
