@@ -24,6 +24,7 @@ module.exports = defineConfig({
     specPattern: "cypress/e2e/features/*.feature",
     projectId: "b8x1bw",
     baseUrl: "https://www.braingle.com/trivia/",
-    chromeWebSecurity: true
+    chromeWebSecurity: true,
+    defaultCommandTimeout: 6000
   },
 });
