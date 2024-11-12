@@ -8,10 +8,9 @@ import {
   Given("the user visit homepage", () => {
     //Visita la pagina
     cy.visit("/quiz.php?id=10723");
-    cy.clearCookies();
-    cy.reload();
-    //Acepta las cookies. Busca el boton que contenga el texto AGREE
-    cy.contains("AGREE").click()
+    
+    //Acepta las cookies si aparece, sino no hace click. Busca el boton que contenga el texto AGREE
+    cy.contains("AGREE").should('exist').click();
 
   });
 
