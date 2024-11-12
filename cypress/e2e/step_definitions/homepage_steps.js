@@ -8,6 +8,8 @@ import {
   Given("the user visit homepage", () => {
     //Visita la pagina
     cy.visit("/quiz.php?id=10723");
+      //acepta las cookies (comentado porque en el ci no aparece el banner de cookies, quitar comentario si te aparecen)
+      //cy.contains("AGREE").click();
     
 
   });
