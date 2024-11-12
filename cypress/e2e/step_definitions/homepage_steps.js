@@ -9,8 +9,6 @@ import {
     //Visita la pagina
     cy.visit("/quiz.php?id=10723");
     
-    //Acepta las cookies si aparece, sino no hace click. Busca el boton que contenga el texto AGREE
-    cy.contains("AGREE").should('exist').click();
 
   });
 
